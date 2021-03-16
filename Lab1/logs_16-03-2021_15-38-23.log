@@ -1,0 +1,14 @@
+16-03-2021 15:38:23 INFO: START
+16-03-2021 15:38:23 INFO: Connecting to the DB...
+16-03-2021 15:38:23 INFO: Connected to zno
+16-03-2021 15:38:23 INFO: Created tables ZNO and TMP!
+16-03-2021 15:38:23 INFO: Inserting data from Odata2019File.csv
+16-03-2021 15:42:56 INFO: Data from Odata2019File.csv inserted to the DB! Total rows: 353813!
+16-03-2021 15:42:56 INFO: Inserting data from Odata2020File.csv
+16-03-2021 15:48:09 INFO: Data from Odata2020File.csv inserted to the DB! Total rows: 379299!
+16-03-2021 15:48:09 INFO: ======================
+16-03-2021 15:48:09 INFO: Insertion time: 585 s
+16-03-2021 15:48:09 INFO: ======================
+16-03-2021 15:48:09 INFO: Executing query...
+16-03-2021 15:48:26 INFO: Query result is saved to data/result.csv
+16-03-2021 15:48:26 INFO: END

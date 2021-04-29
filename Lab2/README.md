@@ -4,7 +4,7 @@
 2. Додати файли Odata2019File.csv та Odata2020File.csv у папку data
 3. Запустити скрипт populate_kp1.py, який створить основну та наповнить основну таблицю з КП1
 4. Запустити скрипт task_kp1.py, який виконає запит до бази з КП1 та збереже результати у data/result_kp1.csv
-5. Відредагувати за потрібності файл конфігурації conf/flyway.conf:
+5. Відредагувати за потреби файл конфігурації conf/flyway.conf:
 flyway.url=jdbc:postgresql://[LOCALHOST]:[PORT]/[DBNAME]
 flyway.user=[USER]
 flyway.password=[PASSWORD]

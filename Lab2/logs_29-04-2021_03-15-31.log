@@ -1,6 +1,0 @@
-29-04-2021 03:15:31 INFO: START
-29-04-2021 03:15:47 INFO: Connecting to the DB...
-29-04-2021 03:15:47 INFO: Connected to postgres
-29-04-2021 03:15:47 INFO: Executing query...
-29-04-2021 03:16:56 INFO: Query result is saved to data/result_kp1
-29-04-2021 03:16:56 INFO: END

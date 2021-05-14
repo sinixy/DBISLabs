@@ -110,7 +110,7 @@ for filename in os.listdir('data'):
                 else:  # інакше, у базі присутня лише якась частина даних
                     counter = info['inserted_count']  # змінюємо значення лічильника
                     logging.info('Already inserted docs count: ' + str(counter))
-            else:  # якщо даних для цього року немає – створюємо запис у допоміжній таблиці
+            else:  # якщо даних для цього року немає – створюємо документ у допоміжній колекції
                 zno_tmp.insert_one({'YEAR': year, 'inserted_count': 0, 'done': False})
 
             reader = csv.DictReader(file, delimiter=';')

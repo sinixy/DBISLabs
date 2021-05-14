@@ -94,11 +94,11 @@ def get_insert_values(row, year):
 # ======== Занесення даних до колекцій ========
 start = datetime.now()
 
-for filename in os.listdir('D:\\AppMathOwO\\6sem\\dbis\\Lab1\\data'):
+for filename in os.listdir('data'):
     year = re.findall(r'Odata(\d{4})File.csv', filename)  # знаходимо потрібний файл
     if year:
         year = int(year[0])
-        with open(os.path.join('D:\\AppMathOwO\\6sem\\dbis\\Lab1\\data', filename), encoding='cp1251') as file:
+        with open(os.path.join('data', filename), encoding='cp1251') as file:
             logging.info('Inserting data from ' + filename)
             counter = 0  # лічильник, який показує скільки документів записано.
 
